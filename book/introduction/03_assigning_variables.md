@@ -125,3 +125,5 @@ it two times.
 We will be prompted to give our name then hometown twice, as that is how many times we have called the
 function. This is just the beginning. But hopefully you are starting to see the bigger picture of what
 the possibilities are with programs as a whole!
+
+[Function Time!](link)
