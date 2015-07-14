@@ -37,4 +37,4 @@ in-depth look, you can check out this [RVM Screencast](http://screencasts.org/ep
 
 Note to ignore the second command if you are on OSX, as you will already have curl.
 
-### [Firing Up Ruby](link)
+### [Firing Up Ruby](https://github.com/ybur-yug/ruby_guides/blob/master/book/introduction/02_firing_up_ruby.md)
