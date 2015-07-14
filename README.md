@@ -34,8 +34,8 @@ get the environment running as we have it here.
 - Printing Output
 - Assigning Variables
 - Functions
-- Modules
-- Classes
+- Math Operators
+- Conditional Logic
 
 ### Extending Ruby
 - Gems
@@ -45,6 +45,8 @@ get the environment running as we have it here.
   - Web Scraping
 
 ### A Deeper Look At Ruby
+- Modules
+- Classes
 - Class Structure
 - Object Orientation
 - Gems
