@@ -26,3 +26,5 @@ Hello, World.
 
 Now, this is a byte (pun, get it?) sized chunk. From here we will explore the finer points of the
 dead basics of Ruby, and actually make some simple programs.
+
+### [Variables!](https://github.com/ybur-yug/ruby_guides/blob/master/book/introduction/03_assigning_variables.md)
