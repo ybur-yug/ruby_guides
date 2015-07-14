@@ -64,4 +64,4 @@ get the environment running as we have it here.
 - Building a Static Application
 - Building a Rich Application
 
-And maybe even more! Get started with [Setup, Installation, and First Steps](link)
+And maybe even more! Get started with [Setup, Installation, and First Steps](https://github.com/ybur-yug/ruby_guides/blob/master/book/introduction/01_install_linux_osx.md)
