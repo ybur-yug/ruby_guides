@@ -7,10 +7,7 @@ text editors you can choose from and there are also religious wars completely ce
 For the sake of simplicity, for beginners I recommend downloading [Atom](link) from [Github](link). I see
 this as a wonderful solution for a few reasons:
 
-1. It is open source.
-
-Ruby is open source. This tutorial is open source. Developers tend to just
-love open source software and its widely
+1. It is open source. Ruby is open source. This tutorial is open source. Developers tend to just love open source software and its widely
 
 2. It is easy and has Ruby support out of the box.
 
