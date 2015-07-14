@@ -126,4 +126,4 @@ We will be prompted to give our name then hometown twice, as that is how many ti
 function. This is just the beginning. But hopefully you are starting to see the bigger picture of what
 the possibilities are with programs as a whole!
 
-[Function Time!](link)
+[Function Time!](https://github.com/ybur-yug/ruby_guides/blob/master/book/introduction/04_functions.md)
