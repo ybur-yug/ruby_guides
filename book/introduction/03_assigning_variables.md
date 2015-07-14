@@ -57,6 +57,8 @@ but it actually is quite simple. Remember in our first code with IRB where we go
 at the end of our `puts` statement? Chomp is a `method` that will 'chomp' off the newline from user
 input. `gets` simply gets input from a user.
 
+### TODO Example of above
+
 Methods are all over in ruby, and we will get into them in a bit.
 
 For now, lets run our program. To do this, we simply will type
@@ -115,7 +117,7 @@ greet.call
 
 Now, if we run
 
-`ruby greeter.rb`
+`ruby greeter_2.rb`
 
 What we have done here is use a `function` object called a `proc`, and use the `call` method to invoke
 it two times.
