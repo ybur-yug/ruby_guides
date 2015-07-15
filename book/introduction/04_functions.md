@@ -108,4 +108,4 @@ Now that we know about functions, variables, and how to get and print output, le
 exercises to use what we've learned. We will dive a LOT further into functions later, but for now
 we have enough knowledge to make a simple app with these tools.
 
-[Exercise 0](https://github.com/ybur-yug/ruby_guides/blob/master/book/introduction/05_exercise_0.md)
+### [Exercise 0](https://github.com/ybur-yug/ruby_guides/blob/master/book/introduction/05_exercise_0.md)
