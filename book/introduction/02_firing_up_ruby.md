@@ -6,7 +6,7 @@ that have no background in programming have at least casually noticed and been c
 
 #### The Terminal!
 
-This scary (for now) command prompt will be our most utilized tool from here on out. We had to open
+This scary (for now) command prompt (or, `terminal`) will be our most utilized tool from here on out. We had to open
 it last time, but we will actually be using some of its many features here.
 
 We want to open it in the same technique detailed in the last chapter. For now, we wont even have
@@ -26,5 +26,28 @@ Hello, World.
 
 Now, this is a byte (pun, get it?) sized chunk. From here we will explore the finer points of the
 dead basics of Ruby, and actually make some simple programs.
+
+### This Book's Notation
+In case there has been any confusion, there are some simple notations we will use for code blocks
+and the input/output/editing ruby files pieces of all of this.
+
+Any line starting with `$` is a terminal command. Such as:
+
+`$ atom some_file.rb`
+This opens atom with a file named `some_file.rb` from the terminal
+
+`$ irb`
+This opens up IRB in the terminal for an interactive session.
+
+Anytime you see a larger block such as this:
+
+```ruby
+def foo(bar)
+  print bar + " pants"
+end
+```
+
+The `some_file.rb` is the name of the file you will find corresponding in the `code_examples` section,
+and also is a link to that specific code if clicked.
 
 ### [Variables!](https://github.com/ybur-yug/ruby_guides/blob/master/book/introduction/03_assigning_variables.md)

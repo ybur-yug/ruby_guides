@@ -24,18 +24,16 @@ That is a talk for another day, though.
 Now, once atom is installed we get a cool toy. If we simply type
 
 ```bash
-atom some_file.rb
+$ atom some_file.rb
 ```
 
 We will open atom, and also a file called `some_file.rb`. So in this case, for our first saved
 program, let's call it `greeter.rb`.
 
-`atom greeter.rb`
+`$ atom greeter.rb`
 
 And once atom fires up, this is the code we will put in. For this first example, let's just copy/paste
 and I will explain what we are doing after.
-
-`atom greeter.rb`
 
 ```ruby
 puts "What is your name?"
@@ -44,6 +42,8 @@ puts "Where are you from?"
 hometown = gets.chomp
 puts "Hello " + name + " from " + hometown
 ```
+
+[`greeter.rb`](https://github.com/ybur-yug/ruby_guides/blob/master/code_examples/greeter.rb)
 
 Now, this is quite the simple program, but it exposes us to a few more concepts.
 
@@ -63,12 +63,12 @@ Methods are all over in ruby, and we will get into them in a bit.
 
 For now, lets run our program. To do this, we simply will type
 
-`ruby greeter.rb`
+`$ ruby greeter.rb`
 
 It should go something like:
 
 ```ruby
-$ ruby code_examples/greeter.rb
+$ ruby greeter.rb
 What is your name?
 bob
 Where are you from?
@@ -79,6 +79,8 @@ Hello bob from gibsonburg
 Bam. We now have input from a user and can utilize it stored in values. But what if we wanted to reuse
 this? To do that, we need to make a `function`. To do this is quite simple modifying our old code:
 
+`$ atom greeter_2.rb`
+
 ```ruby
 greet = -> do
   puts "What is your name?"
@@ -88,6 +90,8 @@ greet = -> do
   puts "Hello " + name + " from " + hometown
 end
 ```
+
+[`greeter_2.rb`](https://github.com/ybur-yug/ruby_guides/blob/master/code_examples/greeter_2.rb)
 
 As you can see, there is very little change here. We simply have added 2 lines:
 
@@ -100,7 +104,7 @@ and
 What this does, is `def` or, 'define' a `function` called `greet`. Now, to call this function anywhere
 all we have to do is add a couple more lines to call it.
 
-`atom greeter_2.rb`
+`atom greeter_3.rb`
 
 ```ruby
 greet = -> do
@@ -115,9 +119,11 @@ greet.call
 greet.call
 ```
 
+[`greeter_3.rb`](https://github.com/ybur-yug/ruby_guides/blob/master/code_examples/greeter_3.rb)
+
 Now, if we run
 
-`ruby greeter_2.rb`
+`$ ruby greeter_3.rb`
 
 What we have done here is use a `function` object called a `proc`, and use the `call` method to invoke
 it two times.

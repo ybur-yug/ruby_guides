@@ -7,4 +7,14 @@
 
 3. Observe what happens and try to ponder on why.
 
+## Second Problem
 
+1. Write a function that gets someone's name
+
+2. Write a function that gets someone's phone number
+
+3. Write a function that gets someone's address
+
+4. Write a function that gets someone's favorite food.
+
+5. Write a function that calls all of these, and prints the result

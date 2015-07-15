@@ -16,6 +16,7 @@ def goodbye(name)
   puts "Goodbye " + name
 end
 ```
+[`basic_functions.rb`](https://github.com/ybur-yug/ruby_guides/blob/master/code_examples/basic_functions.rb)
 
 In these two examples we have functions called `hello` and `goodbye`. Let's add on to the end of the
 file and actually call these now.
@@ -28,7 +29,7 @@ goodbye
 
 and now if we run the file:
 
-`ruby basic_functions.rb`
+`$ ruby basic_functions.rb`
 
 ```bash
 hello
@@ -42,7 +43,7 @@ Oops. Our first error! If we look at this we get a clue as to what we did wrong.
 a `name` parameter into our `goodbye` function. Parameters are the input to functions, the data you
 wish for them to manipulate. Let's fix this.
 
-`atom basic_functions_2.rb`
+`$ atom basic_functions_2.rb`
 
 ```ruby
 def hello
@@ -58,6 +59,8 @@ hello
 goodbye("Tom")
 ```
 
+[`basic_functions_2.rb`](https://github.com/ybur-yug/ruby_guides/blob/master/code_examples/basic_functions_2.rb)
+
 Parameters are passed in the parentheses after a function name in Ruby. For single arguments, we can
 actually omit the parentheses in Ruby and write it
 
@@ -68,7 +71,7 @@ the parentheses to avoid unforeseen and accidental errors.
 
 When we run this new code:
 
-`ruby basic_functions_2.rb`
+`$ ruby basic_functions_2.rb`
 
 we get:
 
@@ -80,7 +83,7 @@ Goodbye Tom
 
 We can even call functions within another function:
 
-atom `basic_functions_3.rb`
+`$ atom basic_functions_3.rb`
 
 ```ruby
 def hello
@@ -95,6 +98,8 @@ end
 hello
 goodbye("Tom")
 ```
+
+[`basic_functions_3.rb`](https://github.com/ybur-yug/ruby_guides/blob/master/code_examples/basic_functions_3.rb)
 
 In this case, we are now calling `hello` within `goodbye`. Though this functionally makes sense, it
 shows us how we can chain different functions together.
