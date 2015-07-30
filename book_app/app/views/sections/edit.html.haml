@@ -1,0 +1,9 @@
+%h1= "Edit Section " + @section.title
+
+%h5
+  = form_for [@chapter, @section] do |f|
+    = f.label :title
+    = f.text_field :title
+    = f.label :body
+    = f.text_area :body, size: "10x35"
+    = f.submit

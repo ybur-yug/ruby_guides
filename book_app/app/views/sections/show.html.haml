@@ -1,0 +1,7 @@
+%h2
+  Section:
+  = @section.title
+  %br
+  = link_to "Edit", edit_chapter_section_path(@chapter, @section)
+
+= raw markdown(@section.body)

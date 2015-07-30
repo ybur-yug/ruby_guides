@@ -1,0 +1,10 @@
+%h1
+  ="#{@chapter.title}"
+  %h4
+    = link_to "Edit", edit_chapter_path(@chapter)
+
+- @chapter.sections.each do |section|
+  = link_to "#{section.title}", chapter_section_path(@chapter, section)
+  %br
+%h4
+  = link_to "New Section", new_chapter_section_path(@chapter)

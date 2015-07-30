@@ -1,0 +1,22 @@
+%h1
+  Chapters
+
+- @chapters.each do |chapter|
+  %h4
+    = link_to "#{chapter.title}", chapter_path(chapter)
+    = "-"
+    = link_to "Edit", edit_chapter_path(chapter)
+    |
+    = link_to "Delete", chapter_path(chapter),
+      data: { confirm: "Really?",
+              method:  "delete" }
+    |
+    = link_to "Add Section", new_chapter_section_path(chapter)
+  %br
+  %h6
+    - chapter.sections.each do |section|
+      = link_to "#{section.number} #{section.title}", chapter_section_path(chapter, section)
+      %br
+      %h3
+      %br
+= link_to "New", new_chapter_path

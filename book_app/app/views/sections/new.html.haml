@@ -1,0 +1,9 @@
+%h1= "New Section for " + @chapter.title
+
+%h5
+  = form_for [@chapter, @section] do |f|
+    = f.label :title
+    = f.text_field :title
+    = f.label :body
+    = f.text_area :body
+    = f.submit

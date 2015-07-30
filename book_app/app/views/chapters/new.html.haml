@@ -1,0 +1,8 @@
+%h1 Add Chapter
+
+- if @chapter.errors.any?
+  %h2 Errors
+  -@chapter.errors.full_messages.each do |message|
+    = message
+
+= render "chapters/chapter_form"
